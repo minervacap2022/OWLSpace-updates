@@ -7,15 +7,15 @@
     <language>en</language>
     <item>
       <title>Version 0.1.2</title>
-      <pubDate>Tue, 21 Apr 2026 15:44:26 +0000</pubDate>
+      <pubDate>Tue, 21 Apr 2026 16:04:45 +0000</pubDate>
       <sparkle:version>1776736878</sparkle:version>
       <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
         url="https://github.com/minervacap2022/OWLSpace-updates/releases/download/v0.1.2/OWLSpace-0.1.2.dmg"
-        length="250021156"
+        length="249242514"
         type="application/octet-stream"
-        sparkle:edSignature="+dZLJ+6fj0wWqzAGhT/RN9+WDtBjp9lfym9khzAtlD2b4uz5gYQuOhepocqTRVUpJ2syO2eCeBdqakWKP9U0Aw==" />
+        sparkle:edSignature="DSvhirGcHxFPnsnY2guzr5EPIL9mp+s81RAjh7Jd22MYJKVoQDkFv6pjvx45gox4q8JKg4Ka1BtxFvqvtNF6CQ==" />
     </item>
     <item>
       <title>Version 0.1.1</title>

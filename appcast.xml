@@ -6,6 +6,18 @@
     <description>Most recent OWLSpace updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.1.39</title>
+      <pubDate>Sat, 02 May 2026 01:51:37 +0000</pubDate>
+      <sparkle:version>1776838505</sparkle:version>
+      <sparkle:shortVersionString>0.1.39</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/minervacap2022/OWLSpace-updates/releases/download/v0.1.39/OWLSpace-0.1.39.dmg"
+        length="251396123"
+        type="application/octet-stream"
+        sparkle:edSignature="Yp8ccABQttDr7UM87P0NOTLOrNyCbTWzl7FosfYpSys3TZJMPZVOSAZC8vaNhIOGDy3WssvEtsmd1GzkjBiwDA==" />
+    </item>
+    <item>
       <title>Version 0.1.34</title>
       <pubDate>Tue, 28 Apr 2026 08:07:42 +0000</pubDate>
       <sparkle:version>1776838505</sparkle:version>

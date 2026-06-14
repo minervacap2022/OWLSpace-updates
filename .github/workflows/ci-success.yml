@@ -1,0 +1,26 @@
+# ci-success — the status check the `main` ruleset requires on every PR.
+#
+# This repo is a static publish target: it holds appcast.xml + release DMGs,
+# no buildable code. The branch ruleset requires a check named `ci-success`,
+# but no workflow produced it — so every release PR deadlocked (required check
+# with no producer). This workflow IS that producer: it validates the appcast
+# is well-formed XML and reports `ci-success`, so OTA release PRs can merge.
+name: ci-success
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  ci-success:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate appcast.xml is well-formed
+        run: |
+          if [ ! -f appcast.xml ]; then
+            echo "appcast.xml missing"; exit 1
+          fi
+          python3 -c "import xml.dom.minidom,sys; xml.dom.minidom.parse('appcast.xml'); print('appcast.xml is well-formed')"
